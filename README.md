@@ -1,15 +1,15 @@
-# NOTE ABOUT THIS FORK.
+# NOTE ABOUT THIS FORK - 2023-07-01
 
-This is just a personal fork of mine that changes the default time delay from 6 to 200.
+This is a personal fork that changes the default time delay from 6 to 200.
 
-In my experience, mainly with Linear 10bit, you need a much larger delay for the bruteforce attack to work. For me it starts working around ~200, but 255 is best.  Around 150 that occasionally works, but not reliably.  But the default of 6 never works for me.
+In my experience, mainly with Linear 10bit, you need a much larger delay for the bruteforce attack to work. For me it starts working around ~200, but 255 is best.  Around 150 occasionally works, but not reliably.  But the default of 6 never works for me.
 
-Adjust the time delay by *holding* the up button on the attack screen. A tap saves, but holding it up brings you to the view where you can adjust the time delay.
+Adjust the time delay by *holding* the up button on the attack screen. Tapping up saves, but holding it up brings you to the view where you can adjust the time delay.
 
 Ideally you should compile this yourself, but if you trust my binary, you can download it from this repo or the release page.
 
 ### To install this fork
-- Download `subghz_bruteforcer_slow.fap` from releases of repo.
+- Download `subghz_bruteforcer_slow.fap` from releases or repo.
 - Mount your SD card, or plug in your flipper and use qFlipper to access the filesystem
 - Copy `subghz_bruteforcer_slow.fap` to `apps/Sub-GHz/`.
 - Now on your Flipper you can go to Apps->Sub-GHz and open the new Sub-GHz Bruteforcer.
